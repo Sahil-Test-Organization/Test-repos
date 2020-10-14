@@ -1,0 +1,10 @@
+composer create-project --prefer-dist laravel/laravel:^7.0 blog
+
+php -d memory_limit=-1 C:\ProgramData\ComposerSetup\bin\composer.phar update
+
+composer require laravel/passport:7.5.1
+
+
+ http://127.0.0.1:8000
+  
+localhost/learning/public/country
